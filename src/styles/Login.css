@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 100%;
+  max-height: 100vh;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom left, black, gray, white);
+  flex-flow: column wrap;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+.img-logo-one {
+  display: flex;
+  width: 100%;
+  height: 35%;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.registration-container {
+  display: flex;
+  height: 50%;
+  width: 30%;
+  flex-flow: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.form-registration {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.label-user {
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+.user-input {
+  margin-bottom: 20px;
+  width: 150%;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 22px;
+}
+
+.label-password {
+  font-size: 25px;
+  margin-bottom: 8px;
+}
+
+.password-input {
+  margin-bottom: 20px;
+  width: 150%;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 22px;
+}
+
+.button {
+  background-image: linear-gradient(
+    to bottom left,
+    rgba(0, 132, 255, 0.952),
+    rgba(0, 247, 255, 0.925),
+    rgb(3, 180, 106)
+  );
+  color: whitesmoke;
+  border: none;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  width: 99%;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  border-left: 4px solid black;
+  border-right: 4px solid black;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  margin-left: 4px;
+  letter-spacing: 0.3rem;
+}
+
+.button:hover {
+  color: black;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(3, 180, 106),
+    rgba(0, 247, 255, 0.925),
+    rgba(0, 132, 255, 0.952)
+  );
+  border-top: 4px solid whitesmoke;
+  border-bottom: 4px solid whitesmoke;
+  border-left: 4px solid whitesmoke;
+  border-right: 4px solid whitesmoke;
+}

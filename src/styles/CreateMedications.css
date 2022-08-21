@@ -1,0 +1,118 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.column-one {
+  width: 30%;
+  height: 90%;
+}
+.img-logo-two {
+  display: flex;
+  height: 240px;
+  width: 450px;
+  position: absolute;
+  left: 9px;
+}
+
+.container-register {
+  color: whitesmoke;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  height: 50%;
+  width: 40%;
+}
+.medicine-register {
+  margin-bottom: 30px;
+}
+/* w-[70%] h-[50%] rounded-xl border-2 border-blue-800 shadow-lg shadow-blue-850 bg-white
+          flex flex-col" */
+.form-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+.name-section {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.name-label {
+  padding-right: 10px;
+}
+
+.input-name {
+  font-size: 22px;
+  padding: 3px;
+  width: 50%;
+}
+
+.amount-section {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.amount-label {
+  padding-right: 10px;
+}
+
+.input-amount {
+  font-size: 22px;
+  padding: 3px;
+  width: 48%;
+}
+.issued-section {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.issued-label {
+  padding-right: 10px;
+}
+
+.input-issued {
+  font-size: 22px;
+  padding: 3px;
+  width: 48%;
+}
+.expire-section {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.expire-label {
+  padding-right: 10px;
+}
+.input-expire {
+  font-size: 22px;
+  padding: 3px;
+  width: 48%;
+}
+.companies-section {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.companies-label {
+  padding-right: 10px;
+}
+.companies-select {
+  font-size: 22px;
+  padding: 3px;
+  width: 48%;
+}
+
+.register {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
